@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Yanone+Kaffeesatz&display=swap');
+
+html {
+    background-color: rgba(100, 137, 197, 0.6);
+    background-image: url("Images/Header Background.jpg");
+    opacity: 0.85;
+    background-blend-mode: multiply;
+    background-size: cover; 
+    font-family: Roboto Condensed;
+    padding-bottom: 80px;
+}
+
+html body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.nav ul {
+    margin: 0; 
+}
+
+.nav li {
+    display: inline; 
+}
+
+.nav a {
+    display: inline-block;
+    padding-top: 1.2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.2em; 
+    color: white;
+    text-decoration: none;
+    
+}
+
+.main-nav {
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+    border-bottom: 1px solid #FFFAFA;    
+}
+
+.nav a:hover {
+    background-color: #CBC3E3;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.img {
+    float: left;
+    margin-left: 2cm;
+    height: 5cm;
+    width: 8cm;
+}
+
+.title {
+    font-family: Roboto Condensed;
+    text-align: center;
+    color: #CBC3E3;
+    font-size: 35px;
+    margin-bottom: 0.5cm;
+}
+
+.git {
+    text-align: center;
+    font-size: larger;
+    padding: 15px 32px; 
+    background-color: #CBC3E3;
+    text-align: center;
+    border: #CBC3E3;
+    margin-top: 8cm;
+    position: absolute;
+    left: 42%;
+}
+
+.text {
+    font-family: Roboto Condensed;
+    text-decoration: none;
+    color: black;
+    font-weight: light;
+}
