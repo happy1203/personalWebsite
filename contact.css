@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Yanone+Kaffeesatz&display=swap');
+
+html {
+    background-color: rgba(100, 137, 197, 0.6);
+    background-image: url("Images/Header Background.jpg");
+    opacity: 0.85;
+    background-blend-mode: multiply;
+    background-size: cover; 
+    font-family: Roboto Condensed;
+    padding-bottom: 80px;
+}
+
+html body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.nav ul {
+    margin: 0; 
+}
+
+.nav li {
+    display: inline; 
+}
+
+.nav a {
+    display: inline-block;
+    padding-top: 1.2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.2em; 
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+    border-bottom: 1px solid #FFFAFA;
+}
+
+.nav a:hover {
+    background-color: #CBC3E3;
+    font-weight: bold;
+    color: black;
+}
+
+.main-contain {
+    text-align: center;
+    font-size: medium;
+    
+}
+
+.title {
+    text-align: center;
+    color: #CBC3E3;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.subline {
+    text-align: center;
+    color: #CBC3E3;
+    font-size: 20px;
+    margin-top: 0.3cm;
+    margin-bottom: 0.75cm;
+    font-weight: lighter;
+}
+
+input[type=text] {
+    background-color: #CBC3E3;
+    border: #313351;
+    width: 35%; 
+    padding: 10px; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0.2cm;
+    margin-bottom: 0.2cm; 
+    font-weight: 200;
+    font-size: medium; 
+}
+
+textarea {
+    background-color: #CBC3E3;
+    border: #313351;
+    width: 35%; 
+    padding: 10px; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0.1cm;
+    margin-bottom: 0.1cm; 
+    font-family: Roboto Condensed;
+    font-size: medium;
+}
+
+.sub-button {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    padding: 15px 32px; 
+    background-color: #313351;
+    font-family: Roboto Condensed;
+    border-color: white;
+    text-align: center;
+    margin: 0;
+    border: #313351;
+    position: absolute;
+    left: 58.1%;
+}
+
