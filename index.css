@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto Condensed;
+    color: #FFFAFA;
+}
+
+html body {
+    margin: 0; 
+    padding: 0; 
+}
+
+.nav ul {
+    margin: 0; 
+}
+
+.nav li {
+    display: inline; 
+}
+
+.nav a {
+    display: inline-block;
+    padding-top: 1.2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.2em; 
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
+    border-bottom: 1px solid #FFFAFA;
+}
+
+.nav a:hover {
+    background-color: #CBC3E3;
+    font-weight: bold;
+    color: black;
+}
+
+.main-header {
+    background-color: rgba(100, 137, 197, 0.6);
+    background-image: url("Images/Header Background.jpg");
+    opacity: 0.85;
+    background-blend-mode: multiply;
+    background-size: cover; 
+    padding-bottom: 197px;    
+}
+
+.intro {
+    text-align: center;
+    margin-top: 4cm; 
+    margin-bottom: 0cm; 
+    font-size: 3em;
+}
+
+.subline {
+    text-align: center;
+    margin-top: 0em; 
+    font-size: 1.5em;
+    font-weight: lighter; 
+}
+
+.in-button {
+    text-align: center;
+    size: 2cm;
+}
+
+.button {
+    color: black;
+    text-align: center;
+    font-size: larger;
+    padding: 15px 32px; 
+    background-color: #CBC3E3;
+    font-family: Roboto Condensed;
+    border:none;
+}
